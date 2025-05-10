@@ -44,7 +44,7 @@ export default function AboutPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <img
-                src="/placeholder.svg?key=nhlv5"
+                src="/hispanic-plumber-portrait.png"
                 alt="El Charracas Plumbing team"
                 className="w-full h-auto rounded-lg shadow-xl"
               />

@@ -72,7 +72,7 @@ export default function HeroSection() {
           >
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="/placeholder.svg?key=8pgi8"
+                src="/professional-plumber-portrait.png"
                 alt="Professional plumber in San Diego"
                 className="w-full h-auto object-cover rounded-lg"
               />

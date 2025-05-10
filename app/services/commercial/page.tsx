@@ -162,19 +162,19 @@ export default function CommercialPlumbingPage() {
                 title: "Hotels & Hospitality",
                 description:
                   "Specialized services for hotels, including water conservation solutions and 24/7 emergency support.",
-                image: "/placeholder.svg?key=qvv45",
+                image: "/hotel-plumbing-maintenance.png",
               },
               {
                 title: "Healthcare Facilities",
                 description:
                   "Code-compliant plumbing services for medical offices, clinics, and hospitals with strict sanitation requirements.",
-                image: "/placeholder.svg?height=300&width=400&query=hospital plumbing system",
+                image: "/gallery/commercial-bathroom-sink.jpeg",
               },
               {
                 title: "Industrial & Manufacturing",
                 description:
                   "Heavy-duty plumbing solutions for industrial facilities, including specialized pipe systems and water treatment.",
-                image: "/placeholder.svg?height=300&width=400&query=industrial plumbing system",
+                image: "/gallery/industrial-water-system.jpeg",
               },
             ].map((industry, index) => (
               <motion.div

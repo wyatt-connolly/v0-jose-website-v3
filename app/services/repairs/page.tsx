@@ -120,7 +120,7 @@ export default function RepairsPage() {
               viewport={{ once: true }}
             >
               <img
-                src="/placeholder.svg?height=600&width=800&query=plumber fixing water heater"
+                src="/water-heater-installation.jpeg"
                 alt="Water heater repair"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -144,37 +144,37 @@ export default function RepairsPage() {
                 title: "Leak Repair",
                 description:
                   "Fast detection and repair of leaks in pipes, fixtures, and appliances before they cause water damage.",
-                image: "/placeholder.svg?height=300&width=400&query=plumber fixing pipe leak",
+                image: "/gallery/sink-drain-installation.jpeg",
               },
               {
                 title: "Drain Cleaning",
                 description:
                   "Professional solutions for clogged drains in sinks, tubs, showers, and toilets to restore proper flow.",
-                image: "/placeholder.svg?height=300&width=400&query=drain cleaning service",
+                image: "/gallery/drain-cleaning-service.jpeg",
               },
               {
                 title: "Water Heater Repair",
                 description:
                   "Expert diagnosis and repair of traditional and tankless water heater issues to restore hot water.",
-                image: "/placeholder.svg?height=300&width=400&query=water heater repair",
+                image: "/gallery/water-heater-installation.jpeg",
               },
               {
                 title: "Toilet Repair",
                 description:
                   "Solutions for running toilets, leaks, clogs, and other common toilet problems in homes and businesses.",
-                image: "/placeholder.svg?height=300&width=400&query=toilet repair service",
+                image: "/gallery/residential-wall-plumbing.jpeg",
               },
               {
                 title: "Sewer Line Repair",
                 description:
                   "Advanced techniques to repair damaged or clogged sewer lines with minimal disruption to your property.",
-                image: "/placeholder.svg?height=300&width=400&query=sewer line repair",
+                image: "/gallery/sewer-line-installation.jpeg",
               },
               {
                 title: "Fixture Repair",
                 description:
                   "Professional repair of leaky faucets, showerheads, and other fixtures to eliminate drips and restore function.",
-                image: "/placeholder.svg?height=300&width=400&query=faucet repair",
+                image: "/gallery/commercial-bathroom-sink.jpeg",
               },
             ].map((repair, index) => (
               <motion.div
@@ -256,7 +256,7 @@ export default function RepairsPage() {
               viewport={{ once: true }}
             >
               <img
-                src="/placeholder.svg?height=600&width=800&query=emergency plumber at night"
+                src="/plumber-working.png"
                 alt="24/7 Emergency plumbing service"
                 className="w-full h-auto rounded-lg shadow-lg"
               />

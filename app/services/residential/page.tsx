@@ -49,7 +49,7 @@ export default function ResidentialPlumbingPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <img
-                src="/placeholder.svg?height=600&width=800&query=plumber fixing home sink"
+                src="/residential-bathroom-plumbing.png"
                 alt="Residential plumbing services in San Diego"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
@@ -119,7 +119,7 @@ export default function ResidentialPlumbingPage() {
               viewport={{ once: true }}
             >
               <img
-                src="/placeholder.svg?height=600&width=800&query=modern bathroom plumbing installation"
+                src="/modern-bathroom-plumbing.png"
                 alt="Bathroom plumbing installation"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -143,34 +143,34 @@ export default function ResidentialPlumbingPage() {
                 title: "Kitchen Plumbing",
                 description:
                   "Expert services for sinks, faucets, garbage disposals, dishwashers, and all kitchen plumbing needs.",
-                image: "/placeholder.svg?height=300&width=400&query=kitchen sink plumbing",
+                image: "/kitchen-sink-installation.png",
               },
               {
                 title: "Bathroom Plumbing",
                 description:
                   "Complete solutions for toilets, showers, tubs, sinks, and all bathroom fixtures and pipes.",
-                image: "/placeholder.svg?height=300&width=400&query=bathroom plumbing fixtures",
+                image: "/bathroom-fixtures-upgrade.png",
               },
               {
                 title: "Water Heater Services",
                 description: "Installation, repair, and maintenance for traditional and tankless water heaters.",
-                image: "/placeholder.svg?height=300&width=400&query=water heater installation",
+                image: "/tankless-water-heater-installation.png",
               },
               {
                 title: "Drain Cleaning",
                 description: "Professional drain cleaning services to eliminate clogs and ensure proper water flow.",
-                image: "/placeholder.svg?height=300&width=400&query=drain cleaning service",
+                image: "/gallery/drain-cleaning-service.jpeg",
               },
               {
                 title: "Repiping Services",
                 description:
                   "Complete home repiping with copper or PEX piping for improved water quality and pressure.",
-                image: "/placeholder.svg?height=300&width=400&query=home repiping service",
+                image: "/gallery/copper-pipe-rough-in.jpeg",
               },
               {
                 title: "Leak Detection & Repair",
                 description: "Advanced techniques to locate and repair hidden leaks before they cause major damage.",
-                image: "/placeholder.svg?height=300&width=400&query=plumber detecting water leak",
+                image: "/gallery/sink-drain-installation.jpeg",
               },
             ].map((service, index) => (
               <motion.div
@@ -208,7 +208,7 @@ export default function ResidentialPlumbingPage() {
               viewport={{ once: true }}
             >
               <img
-                src="/placeholder.svg?height=600&width=800&query=plumber explaining to homeowner"
+                src="/young-hispanic-plumber.png"
                 alt="Plumber consulting with homeowner"
                 className="w-full h-auto rounded-lg shadow-lg"
               />

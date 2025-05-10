@@ -33,8 +33,8 @@ export default function Header() {
     >
       <div className="container mx-auto px-4">
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center justify-between">
-          <SimplifiedLogo className="scale-110" />
+        <div className="hidden lg:flex items-center justify-between nav-container">
+          <SimplifiedLogo className="scale-110 mr-8" />
 
           <div className="flex items-center space-x-6">
             <nav className="flex items-center space-x-6">
@@ -49,6 +49,9 @@ export default function Header() {
               </Link>
               <Link href="/services/repairs" className="text-foreground hover:text-primary transition-colors">
                 Repairs
+              </Link>
+              <Link href="/gallery" className="text-foreground hover:text-primary transition-colors">
+                Gallery
               </Link>
               <Link href="/about" className="text-foreground hover:text-primary transition-colors">
                 About
@@ -68,7 +71,7 @@ export default function Header() {
         </div>
 
         {/* Mobile Navigation */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="flex items-center justify-between">
             <SimplifiedLogo />
             <button className="text-foreground p-2" onClick={() => setIsOpen(!isOpen)}>
@@ -139,6 +142,13 @@ export default function Header() {
                   onClick={() => setIsOpen(false)}
                 >
                   Repairs
+                </Link>
+                <Link
+                  href="/gallery"
+                  className="text-foreground hover:text-primary transition-colors py-2"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Gallery
                 </Link>
                 <Link
                   href="/about"
